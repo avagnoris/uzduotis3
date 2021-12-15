@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svetaine</title>
+</head>
+<body style="background: green; color: white;">
+
+    <h1>Lietuvaičių korcertinis turas Žalgirio arenoje</h1>
+
+    <h4>Lietuvaičiai atvyksta pratęsti koncertini turą į Žalgirio areną. kaip juos rasti apačioje.</h4>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.7101488264275!2d23.91456779999999!3d54.8904569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72271d0b1c3e1%3A0xff421580fc4b8b14!2s%C5%BDalgirio%20arena!5e0!3m2!1slt!2slt!4v1639573098742!5m2!1slt!2slt"
+        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+     <h1>Taip pat galima pasiklausyti keletos jų hitų</h1>   
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/jkb8GHCqFAY" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/k9IIjmvDNRc" frameborder="0"allowfullscreen></iframe>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/PmqdXrR9wrU" frameborder="0" allowfullscreen></iframe>
+
+    <h3>Taip pat jie atliks kitus populiarus kūrinius kurios galite paklausyti. Vienas groja net dabar.</h3>
+    <audio controls autoplay muted loop>
+        <source src="audio/audio1.mp3" type="audio/mp3">
+    </audio>
+    <audio controls>
+        <source src="audio/audio2.mp3" type="audio/mp3">
+    </audio>
+    <audio controls>
+        <source src="audio/audio3.mp3" type="audio/mp3">
+    </audio>
+
+    <h3>Renginys nemokamas tačiau butina registracija</h3>
+    <form action="https://zalgirioarena.lt/lt/" method="get">
+    <input type="text" id="vardas" name="vardas" placeholder="Vardas" required><br><br>
+    <input type="text" id="pavarde" name="pavarde" placeholder="Pavardė" required><br><br>
+    <input type="email" id="email" name="email" placeholder="Elektroninis paštas" required><br><br>
+    <input type="date" id="date" name="date" value="2021-12-15" required><br><br>
+    <select name="miestas" id="miestas" required>
+        <option value selected disabled>Miestas</option>
+        <option value="Vilnius">Vilnius</option>
+        <option value="Kaunas">Kaunas</option>
+        <option value="Klaipėda">Klaipėda</option>
+        <option value="kiti miestai">kiti miestai</option>
+    </select><br><br>
+    <button>Registruotis</button>
+    </form>
+</html>
